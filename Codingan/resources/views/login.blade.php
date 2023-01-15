@@ -30,9 +30,9 @@
                 <form action="/login" method="post">
                     @csrf
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" name="email">
+                    <input type="email" class="form-control" name="email" required>
                     <label for="email" class="form-label">Password</label>
-                    <input type="password" class="form-control" name="password">
+                    <input type="password" class="form-control" name="password" required>
 
                     <div class="d-grid gap-2 d-md-block text-center mt-3">
                         <input type="submit" class="btn btn-primary col-10" value="Login">

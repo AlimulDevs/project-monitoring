@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 15, 2023 at 05:18 PM
+-- Generation Time: Jan 13, 2023 at 03:47 PM
 -- Server version: 5.7.33
 -- PHP Version: 7.4.19
 
@@ -65,7 +65,8 @@ INSERT INTO `mentorings` (`id`, `project_name`, `client`, `name_leader`, `email_
 (8, 'Pembuatan Si Keuangan', 'Bakeuda, Prov.Kalsel', 'Indra Setiawan', 'indra.setiawan@gmail.com', 'http://127.0.0.1:8000/images/1673204830Foto-Profil-WA-Keren-3D-7.jpg.webp', '2022-01-14', '2022-08-14', 30, NULL, NULL),
 (9, 'Learning Management System', 'Mentor Ruang Guru', 'Hilman Syahputra', 'hilman.syah@gmail.com', 'http://127.0.0.1:8000/images/1673205259foto-profil-gaya-gangster.webp', '2022-01-30', '2022-03-10', 80, NULL, NULL),
 (10, 'Si Pendataan Atlet Daerah', 'Dispora, Jawa Timur', 'Febri Gunawan', 'febri.gunawan@gmail.com', 'http://127.0.0.1:8000/images/1673205576download-65049cac42b21fd08b36c35ae6eca9ce_600x400.jpeg', '2022-02-02', '2022-05-30', 40, NULL, NULL),
-(11, 'Employee Monitoring', 'PT. Bina Sarana Sukses', 'Handoko Aji', 'handoko.aji@gmail.com', 'http://127.0.0.1:8000/images/1673205379foto-profil-_170704110636-890.jpg', '2022-11-02', '2023-01-15', 100, NULL, NULL);
+(11, 'Employee Monitoring', 'PT. Bina Sarana Sukses', 'Handoko Aji', 'handoko.aji@gmail.com', 'http://127.0.0.1:8000/images/1673205379foto-profil-_170704110636-890.jpg', '2022-11-02', '2023-01-15', 100, NULL, NULL),
+(12, 'Mesin Learning', 'Universitas Malikussaleh', 'Nur Alimul Haq', 'alimuldev@gmail.com', 'http://127.0.0.1:8000/images/1673205663fotoku.jpeg', '2023-01-08', '2023-01-09', 100, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -144,7 +145,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(4, 'Nur Alimul Haq', 'nur.200180100@mhs.unimal.ac.id', NULL, '$2y$10$zs5NznbhAegW1IzUmGp8A.dxOq4d.6hjfQ/IA.fHrdQ3bJS1vKmmy', 'KzB70hi40jaLwNKVJaxUysS45PsYj6xhUkAwK8L3R1Afz1s4Z2WxtRmvgGl6', NULL, NULL);
+(1, 'tes', 'tes@gmail.com', NULL, '$2y$10$08LjTuMBMXU8zJz93onWpuaTvPcDO.s.ZherXuuRnysWpbyD8GKmm', '3yYCznxGhKsotnwMlDcQTrOXGcJjlMOSDdiZ7SEsrWByo1rbOMqLOmYDzkkk', NULL, NULL),
+(2, 'tes2', 'tes2@gmail.com', NULL, '$2y$10$sxiR/nXroIffj1Tr6vhPGuFYw9SNCe97ZVQ8rfrXjaX7FXLsyz7ja', 'cQollbnjtDeqoesJXnb8xy1lTS3nkOpCifnSOfjx75RcRt7abICWr1wOvniy', NULL, NULL);
 
 --
 -- Indexes for dumped tables
@@ -222,7 +224,7 @@ ALTER TABLE `personal_access_tokens`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
